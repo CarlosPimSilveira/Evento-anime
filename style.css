@@ -19,21 +19,40 @@ html, body {
     font-family: var(--fonte1);
 }
 
+.top {
+    background-image: url('funto-top.jpg');
+    background-position: right center; /* Da orientação da imagem */    
+}
+
 nav {
     background-color: rgb(128, 79, 173);
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+}
+
+.logo{
+    display: inline;
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin-right: auto;
 }
 
 nav > a {
     margin: 5px;
     text-decoration: none;
-    color: white;
+    color: rgb(67, 5, 124);;
+    font-weight: 700;
+}
+
+nav > a:hover {
+    color: rgb(178, 119, 230);
 }
 
 header{
-    background-color: rgb(87, 59, 112);
-    color: white;
+    color: rgb(67, 5, 124);
     text-align: center;
 }
 
@@ -57,14 +76,21 @@ header > h3 {
 
 .button {
     border: none;
-    color: black;
+    background-color: rgb(67, 5, 124);
+    color: rgb(128, 79, 173);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 15px 5px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(178, 119, 230);
+    color: rgb(67, 5, 124);
 }
 
 .divisoaria {
@@ -120,4 +146,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer > p, a {
+    color: white;
+    text-decoration: none;
 }
