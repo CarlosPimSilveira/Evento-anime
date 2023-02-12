@@ -20,7 +20,7 @@ html, body {
 }
 
 .top {
-    background-image: url('funto-top.jpg');
+    background-image: url('../midia/funto-top.jpg');
     background-position: right center; /* Da orientação da imagem */
     background-repeat: no-repeat; /* Para não repetir a imagem */
     background-size: cover; /* Para cobrir toda a área */
@@ -137,12 +137,12 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('fundo01.jpg');
+    background-image: url('../midia/fundo01.jpg');
     background-position: right center;
 } 
 
 section#img02 {
-    background-image: url('fundo02.jpg');
+    background-image: url('../midia/fundo02.jpg');
     background-position: right center; /* Da orientação da imagem */
 }
 

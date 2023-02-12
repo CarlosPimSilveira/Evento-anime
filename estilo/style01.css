@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;  
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+.top {
+    background-image: url('../midia/funto-top.jpg');
+    background-position: right center; /* Da orientação da imagem */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+    background-size: cover; /* Para cobrir toda a área */
+    }
+
+nav {
+    background-color: rgb(128, 79, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: inline;
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin-right: auto;
+}
+
+nav > a {
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(67, 5, 124);;
+    font-weight: 700;
+}
+
+nav > a:hover {
+    color: rgb(178, 119, 230);
+}
+
+header{
+    color: rgb(67, 5, 124);
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    /*text-transform: uppercase; para deixar letra maiuscula */
+    font-variant: small-caps; /*deixa tambem maiuscula masa sdeixa primeira letra maior (menos gritante) */
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > h2 {
+    font-family: var(--fonte2);
+    font-size: 7vw;  
+}
+
+header > h3 {
+    font-family: var(--fonte2);
+    font-size: 6vw;
+}
+
+.lista {
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 50px;
+}
