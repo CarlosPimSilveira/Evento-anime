@@ -21,8 +21,10 @@ html, body {
 
 .top {
     background-image: url('funto-top.jpg');
-    background-position: right center; /* Da orientação da imagem */    
-}
+    background-position: right center; /* Da orientação da imagem */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+    background-size: cover; /* Para cobrir toda a área */
+    }
 
 nav {
     background-color: rgb(128, 79, 173);
@@ -90,11 +92,14 @@ header > h3 {
 
 .button:hover {
     background-color: rgb(178, 119, 230);
+    text-shadow: 2px 2px rgba(66, 5, 124, 0.418);
     color: rgb(67, 5, 124);
 }
 
 .divisoaria {
     background-color: rgb(128, 79, 173);
+    color: white;
+    text-shadow: 2px 2px black;
     font-size: 16px;
     padding: 15px 32px;
 }
